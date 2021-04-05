@@ -1,0 +1,37 @@
+
+.container-footer {
+    justify-content: center;
+    background-color: #031539;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.title-footer, .container-redes {
+    text-align: center;
+}
+
+.container-redes {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+    justify-content: center;
+
+}
+
+.item1, .item2, .item3, .item4 {
+    transition: 1s;
+}
+
+.redes:hover {
+    height: 50px;
+    transform:rotateZ(30deg);
+}
+
+.copyright {
+    font-size: 8px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+
+}
