@@ -1,0 +1,27 @@
+
+.container-contact {
+    display: grid;
+    grid-template-columns: 270px 700px;
+    grid-template-rows: auto auto auto auto;
+    background-color: $white;
+    color: $blue-1;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+}
+
+.item-map {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.item-map, .item-title, .item-info, .item-paragraph, .item-links {
+    text-align: justify;
+    /*border: 2px solid black;*/
+}
+
+.registration, .adviser, .donations {
+    text-decoration-line: none;
+}
+
