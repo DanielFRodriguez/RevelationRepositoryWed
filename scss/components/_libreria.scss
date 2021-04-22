@@ -1,0 +1,38 @@
+
+.container-bookstore {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    background-color: $white;
+    color: $blue-2;
+    padding: 120px 30px;
+    justify-content: center;
+    align-content: center;
+
+    .title-bookstore, .paragraph1-bookstore, .information-bookstore {
+        grid-column: span 4;
+    }
+
+    .paragraph1-bookstore, .information-bookstore {
+        text-align: justify;
+    }
+}
+
+.title-bookstore {
+    background-color: $blue-1;
+    color: $white;
+    justify-content: center;
+    text-align: center;
+}
+
+.books {
+    background-color: #07349120;
+    justify-content: center;
+    text-align: center;
+}
+
+.price {
+    color: #7a0202;
+}
+

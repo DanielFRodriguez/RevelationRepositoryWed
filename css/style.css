@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -119,13 +120,14 @@
   transform: rotateZ(30deg);
 }
 
+/*Conéctate*/
 .container-contact {
   display: grid;
   grid-template-columns: 270px 700px;
   grid-template-rows: auto auto auto auto;
   background-color: #ffffff;
-  color: #031539;
-  height: 600px;
+  color: #073491;
+  height: 550px;
   justify-content: center;
   align-content: center;
   margin: 0;
@@ -143,6 +145,92 @@
 
 .registration, .adviser, .donations {
   text-decoration-line: none;
+  font-size: 20px;
+}
+
+/*Predicas*/
+.body-index {
+  background-color: #073491;
+}
+
+.container-videos {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 700px 300px;
+  grid-template-rows: auto auto auto;
+  background-color: #ffffff;
+  color: #072365;
+  padding: 120px 30px;
+  justify-content: center;
+  align-content: center;
+}
+.container-videos .video-1, .container-videos .video-2, .container-videos .video-3 {
+  grid-column: span 1;
+}
+.container-videos iframe {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+}
+
+.audios {
+  background-color: #07349120;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+.audios .title-audios, .audios .container-audios {
+  padding: 0 10px;
+}
+.audios p {
+  text-align: justify;
+}
+.audios .button-audios {
+  background-color: #072365;
+  color: #ffffff;
+  width: 125px;
+  border-bottom: 2px solid #072365;
+  border-radius: 10px;
+}
+.audios .button-audios:hover {
+  background-color: #ffffff;
+  color: #072365;
+}
+
+/*.container-videos div {
+    border: 1px solid #000000;
+}*/
+.container-bookstore {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  background-color: #ffffff;
+  color: #072365;
+  padding: 120px 30px;
+  justify-content: center;
+  align-content: center;
+}
+.container-bookstore .title-bookstore, .container-bookstore .paragraph1-bookstore, .container-bookstore .information-bookstore {
+  grid-column: span 4;
+}
+.container-bookstore .paragraph1-bookstore, .container-bookstore .information-bookstore {
+  text-align: justify;
+}
+
+.title-bookstore {
+  background-color: #031539;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  background-color: #07349120;
+  justify-content: center;
+  text-align: center;
+}
+
+.price {
+  color: #7a0202;
 }
 
 .container-footer {

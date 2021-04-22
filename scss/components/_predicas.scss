@@ -1,0 +1,60 @@
+
+/*Predicas*/
+
+.body-index {
+    background-color: $blue-3;
+}
+
+.container-videos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 700px 300px;
+    grid-template-rows: auto auto auto;
+    background-color: $white;
+    color: $blue-2;
+    padding: 120px 30px;
+    justify-content: center;
+    align-content: center;
+    
+    .video-1, .video-2, .video-3 {
+    grid-column: span 1;
+    }
+
+    iframe {
+    border-radius: 5px;
+    border: 2px solid $white;
+    }
+
+}
+
+
+.audios {
+    background-color: #07349120;
+    grid-column: 2/3;
+    grid-row: 1/4;
+
+    .title-audios, .container-audios {
+        padding: 0 10px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .button-audios {
+        background-color: $blue-2;
+        color: $white;
+        width: 125px;
+        border-bottom: 2px solid $blue-2;
+        border-radius: 10px;
+    }
+
+    .button-audios:hover {
+        background-color: $white;
+        color:$blue-2;
+    }
+}
+
+/*.container-videos div {
+    border: 1px solid #000000;
+}*/

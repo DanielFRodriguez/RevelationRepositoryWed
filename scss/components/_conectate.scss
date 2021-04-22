@@ -1,11 +1,12 @@
+/*Conéctate*/
 
 .container-contact {
     display: grid;
     grid-template-columns: 270px 700px;
     grid-template-rows: auto auto auto auto;
     background-color: $white;
-    color: $blue-1;
-    height: 600px;
+    color: $blue-3;
+    height: 550px;
     justify-content: center;
     align-content: center;
     margin: 0;
@@ -23,5 +24,6 @@
 
 .registration, .adviser, .donations {
     text-decoration-line: none;
+    font-size: 20px;
 }
 
