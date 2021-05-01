@@ -1,7 +1,7 @@
 
 @import 'base/reset';
 @import 'components/variables';
-
+@import 'components/header';
 @import 'components/home';
 @import 'components/conectate';
 @import 'components/predicas';
@@ -14,21 +14,9 @@
     background-color: $white;
 }
 
-/*header*/
-header {
-    position: fixed;
-    background-color: #03153920;
-    z-index: 1;
-}
-.navbar {
-    background-color: transparent;
-    color: $blue-2;
-    padding-right: 20px;
-}
 
-.navbar-toggler {
-    color: #072365;
-}
+
+
 
 
 

@@ -12,9 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,600&display=swap"
         rel="stylesheet">
-    <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Awesome-->
+    <script src="https://kit.fontawesome.com/9eb03013f5.js" crossorigin="anonymous"></script>
+    <!--Javascript-->
+    <script defer src="index.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>SomosPyP/predicas</title>
@@ -22,32 +23,29 @@
 </head>
 <body class="body-predicas">
     <!--Heater-->
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: none;">
-            <div class="container-fluid">
-                <a href="index.html"><img src="Images/logoPyP.png" width="8%" alt="logo de iglesia palabra y poder"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="conectate.html">Conéctate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="predicas.html">Predicas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="libreria.html">Librería</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo nav-link"><img src="Images/logoPyP.svg"
+                    alt="logo de iglesia palabra y poder"></a>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item .nav-menu_visible">
+                    <a href="index.html" class="nav-menu-link nav-link">Home</a>
+                </li>
+                <li class="nav-menu-item nav-link">
+                    <a href="conectate.html" class="nav-menu-link nav-link">Conéctate</a>
+                </li>
+                <li class="nav-menu-item nav-link">
+                    <a href="predicas.html" class="nav-menu-link nav-link">Predicas</a>
+                </li>
+                <li class="nav-menu-item nav-link">
+                    <a href="libreria.html" class="nav-menu-link nav-link">Librería</a>
+                </li>
+            </ul>
         </nav>
+    
     </header>
 
     <section class="container-videos">
@@ -89,13 +87,13 @@
             <h3 class="title-audios">Audios.</h3>
             <div class="container-audios">
                 <!--audio 1-->
-                <a class="audio-1" href="https://go.ivoox.com/rf/55476780"><img src="Images/Manejo de Emociones.jpeg" width="280px" alt="imagen del audio 1"></a>
+                <a class="audio-1" href="https://go.ivoox.com/rf/55476780" target="_blank"><img src="Images/Manejo de Emociones.jpeg" width="280px" alt="imagen del audio 1"></a>
                 <p class="paragraph-audio1">
                     Aprende a manejar tus emociones y no que ellas te dominen a ti.
                 </p>
 
                 <!--audio 2-->
-                <a class="audio-2" href="#">
+                <a class="audio-2" href="https://go.ivoox.com/rf/54721479" target="_blank">
                     <img src="Images/Tu condicion delante de Dios.jpeg" width="280px" alt="imagen del audio 2">
                 </a>
                 <p class="paragraph-audio2">
@@ -104,19 +102,19 @@
                 </p>
 
                 <!--audio 3-->
-                <a class="audio-3" href="#"><img src="Images/Angeles.jpeg" width="280px" alt="imagen del audio 3"></a>
+                <a class="audio-3" href="https://go.ivoox.com/rf/54021346" target="_blank"><img src="Images/Angeles.jpeg" width="280px" alt="imagen del audio 3"></a>
                 <p class="paragraph-audio3">
                     Hebreos 1:14 NTV Por lo tanto, los ángeles sólo son sirvientes, espíritus enviados para cuidar a quienes heredarán la
                     salvación.
                 </p>
 
                 <!--audio 4-->
-                <a class="audio-4" href="#"><img src="Images/Sanidad practica.jpeg" width="280px" alt="imagen del audio 4"></a>
+                <a class="audio-4" href="https://go.ivoox.com/rf/52998842" target="_blank"><img src="Images/Sanidad practica.jpeg" width="280px" alt="imagen del audio 4"></a>
                 <p class="paragraph-audio4">
                     1 Pedro 2:24 RV1960 quien llevó él mismo nuestros pecados en su cuerpo sobre el madero, para que nosotros, estando muertos a los pecados, vivamos a la justicia; y por cuya herida fuisteis sanados.
                 </p>
 
-                <a href="https://co.ivoox.com/es/mis-listas_hk.html">
+                <a href="https://co.ivoox.com/es/mis-listas_hk.html" target="_blank">
                     <button class="button-audios">Más audios</button>
                 </a>
             </div>
@@ -131,22 +129,22 @@
     
         <div class="container-redes">
             <div class="redes item1">
-                <a href="https://www.facebook.com/iglesiapyp"><img src="Images/facebook-circle-logo-180.png" width="80%"
+                <a href="https://www.facebook.com/iglesiapyp" target="_blank"><img src="Images/facebook-circle-logo-180.png" width="80%"
                         alt="facebook"></a>
             </div>
     
             <div class="redes item2">
-                <a href="https://www.instagram.com/iglesiapyp/"><img src="Images/instagram-logo-180.png" width="80%"
+                <a href="https://www.instagram.com/iglesiapyp/" target="_blank"><img src="Images/instagram-logo-180.png" width="80%"
                         alt="instagram"></a>
             </div>
     
             <div class="redes item3">
-                <a href="https://twitter.com/iglesia_pyp"><img src="Images/twitter-logo-180.png" width="80%"
+                <a href="https://twitter.com/iglesia_pyp" target="_blank"><img src="Images/twitter-logo-180.png" width="80%"
                         alt="twitter"></a>
             </div>
     
             <div class="redes item4">
-                <a href="https://www.youtube.com/channel/UCUvH8hhXcgEMd8pnC_ibcWw"><img src="Images/youtube-logo-180.png"
+                <a href="https://www.youtube.com/channel/UCUvH8hhXcgEMd8pnC_ibcWw" target="_blank"><img src="Images/youtube-logo-180.png"
                         width="80%" alt="youtube"></a>
             </div>
         </div>
