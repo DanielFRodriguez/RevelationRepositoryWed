@@ -104,7 +104,7 @@
 /*Banner 1*/
 .container-1 {
   display: grid;
-  grid-template-columns: 550px 225px;
+  grid-template-columns: 570px 225px;
   grid-template-rows: auto auto;
   background-color: #031539;
   color: #ffffff;
@@ -152,7 +152,7 @@
 /*Banner 2*/
 .container-2 {
   display: grid;
-  grid-template-columns: 270px 700px;
+  grid-template-columns: 270px 690px;
   grid-template-rows: auto auto auto;
   background-color: #ffffff;
   color: #031539;
@@ -177,6 +177,10 @@
 
 .paragraph-2, .paragraph-proposito, .paragraph-vision, .paragraph-mision {
   text-align: justify;
+}
+
+.grid-item2, .grid-item3 {
+  padding: 5px;
 }
 
 .grid-item4, .grid-item5 {

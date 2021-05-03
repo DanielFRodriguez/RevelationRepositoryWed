@@ -4,7 +4,7 @@
 
 .container-1 {
     display: grid;
-    grid-template-columns: 550px 225px;
+    grid-template-columns: 570px 225px;
     grid-template-rows: auto auto;
     background-color: $blue-1;
     color: $white;
@@ -51,7 +51,7 @@
 
 .container-2 {
     display: grid;
-    grid-template-columns: 270px 700px;
+    grid-template-columns: 270px 690px;
     grid-template-rows: auto auto auto;
     background-color: $white;
     color: $blue-1;
@@ -76,6 +76,10 @@
 
 .paragraph-2, .paragraph-proposito, .paragraph-vision, .paragraph-mision {
     text-align: justify;
+}
+
+.grid-item2, .grid-item3 {
+    padding: 5px;
 }
 
 .grid-item4, .grid-item5 {
